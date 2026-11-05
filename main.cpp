@@ -12,7 +12,6 @@ private:
     int data[MAX][MAX];
 
 public:
-    // Constructors
     Matrix(int n = 0) : size(n) {
         for (int i = 0; i < MAX; i++)
             for (int j = 0; j < MAX; j++)
